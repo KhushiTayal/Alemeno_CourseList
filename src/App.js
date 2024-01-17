@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import CourseList from './components/CourseList';
 import CourseDetails from './components/CourseDetails';
 import "./App.css";
@@ -20,17 +20,16 @@ const NavigationBar = () => {
   );
 };
 
-
 const App = () => {
   return (
     <Router>
       <div>
         <NavigationBar />
-      <Routes>
-        <Route path="/" element={<CourseList />} />
-        <Route path="/course/:id" element={<CourseDetails />} />
-        <Route path="/dashboard" element={<StudentDashboard />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<CourseList />} />
+          <Route path="/course/:id" element={<CourseDetails />} />
+          <Route path="/dashboard" element={<StudentDashboard />} />
+        </Routes>
       </div>
     </Router>
   );
