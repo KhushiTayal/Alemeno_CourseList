@@ -18,11 +18,9 @@ const initialState = {
       case 'SET_SELECTED_COURSE':
         return { ...state, selectedCourse: state.courses.find((course) => course.id === action.payload) };
       case 'COMPLETE_COURSE':
-        // Implement logic to mark a course as completed
         return state;
 
         case 'MARK_COURSE_AS_COMPLETED':
-          // Find the course by ID and update its completion status
           const updatedCourses = state.enrolledCourses.map((course) =>
             course.id === action.payload ? { ...course, completed: true } : course
           );
@@ -30,7 +28,6 @@ const initialState = {
 
 
           case 'UNDO_MARK_COURSE_AS_COMPLETED':
-  // Find the course by ID and update its completion status to false
   const updatedCoursesUndo = state.enrolledCourses.map((course) =>
     course.id === action.payload ? { ...course, completed: false } : course
   );

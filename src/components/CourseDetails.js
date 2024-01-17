@@ -2,15 +2,12 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 
 const CourseDetails = () => {
-  // Get selected course from Redux state
   const selectedCourse = useSelector((state) => state.selectedCourse);
 
-  // Check if the selected course exists
   if (!selectedCourse) {
-    return <div>Loading...</div>; // Or any other loading indicator
+    return <div>Loading...</div>; 
   }
 
-  // Destructure properties with default values to avoid potential undefined issues
   const {
     name = '',
     instructor = '',

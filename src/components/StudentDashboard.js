@@ -1,4 +1,3 @@
-// StudentDashboard.js
 
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
@@ -27,7 +26,6 @@ const StudentDashboard = () => {
             <li key={course.id} className={course.completed ? 'completed-course' : ''}>
               <h3>{course.name}</h3>
               <p>Instructor: {course.instructor}</p>
-              {/* Add more course information as needed */}
               <p>Due Date: {course.dueDate}</p>
               <p>Progress: {course.progress}%</p>
               {course.completed ? (
