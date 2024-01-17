@@ -10,13 +10,13 @@ This is a simple React app for showcasing a list of courses and managing student
 - Mark courses as completed.
 
 ## Course List Page
-![image](https://github.com/KhushiTayal/Alemeno_CourseList/assets/82832128/f93fb262-1a08-4202-ad6d-1986841e4633)
+![image](https://github.com/KhushiTayal/Alemeno_CourseList/assets/82832128/796f86e1-5cc2-40cd-a3b4-8b76e1d31ae5)
 
 ## Course Detail Page
-![image](https://github.com/KhushiTayal/Alemeno_CourseList/assets/82832128/efe4da2e-fe42-42a2-910a-d240f8745492)
+![image](https://github.com/KhushiTayal/Alemeno_CourseList/assets/82832128/35740470-a043-435d-bbeb-be781a21ecfa)
 
 ## Student Dashboard Page
-![image](https://github.com/KhushiTayal/Alemeno_CourseList/assets/82832128/cfc89c59-985a-416a-b8ac-d5f7571aab08)
+![image](https://github.com/KhushiTayal/Alemeno_CourseList/assets/82832128/72b00238-56e5-453f-8fa8-675974ccdd46)
 
 ## Installation
 
