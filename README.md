@@ -2,10 +2,6 @@
 
 This is a simple React app for showcasing a list of courses and managing student enrollment.
 
-## Live Demo
-
-Check out the live demo: [Alemeno Course List](https://KhushiTayal.github.io/Alemeno_CourseList)
-
 ## Features
 
 - View a list of available courses.
